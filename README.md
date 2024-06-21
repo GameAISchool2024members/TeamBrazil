@@ -156,6 +156,4 @@ Thank you for playing KeepCalm!
 | 21   | HYS         | 11     |
 | 21   | BGB         | 11     |
 
-
-![](https://github.com/GameAISchool2024members/TeamBrazil/blob/main/KeepCalm/Assets.xcassets/hue.imageset/hue.png?raw=true![image](https://github.com/GameAISchool2024members/TeamBrazil/assets/3648336/3ed8106c-0370-400f-a3cf-d0f3830568b7)
-)
+<img src="https://github.com/GameAISchool2024members/TeamBrazil/assets/3648336/3ed8106c-0370-400f-a3cf-d0f3830568b7" height="40px" width="40px"/>
