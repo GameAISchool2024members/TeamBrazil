@@ -21,6 +21,10 @@ https://github.com/GameAISchool2024members/TeamBrazil/assets/3648336/90bbc040-f4
 ## Introduction
 KeepCalm is an engaging and interactive game designed for both iPhone and iPad. The game uses the device motion data to control a character's movements, making it an ??fun?? and immersive experience for players. Players collect fruits while avoiding red poo that impose penalties. The game features a start screen, gameplay, and a ranking system where players can save their scores and initials.
 
+![5](https://github.com/GameAISchool2024members/TeamBrazil/assets/3648336/5cde0107-dcc3-41c6-90f7-fe414d772d22)
+
+
+
 ## Future Improvements
 
 - Use a neural network to detect different type of gestures from the motion data.
