@@ -15,6 +15,11 @@
 ## Introduction
 KeepCalm is an engaging and interactive game designed for both iPhone and iPad. The game uses the device motion data to control a character's movements, making it an ??fun?? and immersive experience for players. Players collect fruits while avoiding red poo that impose penalties. The game features a start screen, gameplay, and a ranking system where players can save their scores and initials.
 
+## Future Improvements
+
+- Use a neural network to detect different type of gestures from the motion data.
+- Multiplayer (multiple iphones controlling same player and multiple players for each iPhone) 
+
 ## Human-Computer Interaction Experience
 The game is designed with a focus on an intuitive and smooth human-computer interaction experience. Key aspects include:
 - **Motion Control:** Players use the motion data from their devices to control the character's jumps.

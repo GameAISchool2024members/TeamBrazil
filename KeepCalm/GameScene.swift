@@ -15,7 +15,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     private var background1: SKSpriteNode!
     private var background2: SKSpriteNode!
     private var coinCount = 0
-    private var jumpCount = 1 // Start with 30 jumps
+    private var jumpCount = 30 // Start with 30 jumps
     private var redCoinCount = 0
     private var coinLabel: SKLabelNode!
     private var jumpLabel: SKLabelNode!
