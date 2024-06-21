@@ -117,3 +117,6 @@ When the player runs out of jumps, the game ends, and the player is prompted to 
 - **Music:** [[8 bit Samba, by Ian Post](https://artlist.io/royalty-free-music/song/8-bit-samba/5003)]
 
 Thank you for playing KeepCalm!
+
+![](https://github.com/GameAISchool2024members/TeamBrazil/blob/main/KeepCalm/Assets.xcassets/hue.imageset/hue.png?raw=true![image](https://github.com/GameAISchool2024members/TeamBrazil/assets/3648336/3ed8106c-0370-400f-a3cf-d0f3830568b7)
+)
