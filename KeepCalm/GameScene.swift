@@ -97,7 +97,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         if player != nil {
             player.removeFromParent()
         }
-        player = SKSpriteNode(color: .green, size: CGSize(width: 50, height: 50))
+        player = SKSpriteNode(imageNamed: "hue")
+        player.size = CGSize(width: 120, height: 120)
         player.position = CGPoint(x: size.width / 4, y: size.height / 3)
         player.physicsBody = SKPhysicsBody(rectangleOf: player.size)
         player.physicsBody?.categoryBitMask = 1
@@ -315,6 +316,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         print("Game Over!")
         UserDefaults.standard.set(coinCount, forKey: "lastScore")
         showGameOverMessage()
+        backgroundMusicPlayer?.stop()
         player.removeFromParent()
     }
 
