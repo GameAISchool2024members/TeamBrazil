@@ -129,5 +129,33 @@ When the player runs out of jumps, the game ends, and the player is prompted to 
 
 Thank you for playing KeepCalm!
 
+# Ranking on the day of the JAM
+
+| Rank | Name        | Points |
+|------|-------------|--------|
+| 1    | MARKUS      | 85     |
+| 2    | DO          | 81     |
+| 3    | NURBEK B    | 79     |
+| 4    | DIOGO       | 73     |
+| 5    | WAFA        | 70     |
+| 6    | Nuno        | 68     |
+| 7    | JEREMY      | 66     |
+| 8    | FANDI MENG  | 59     |
+| 9    | GNY         | 57     |
+| 10   | EZE         | 53     |
+| 11   | CHEESE      | 50     |
+| 12   | GINGER      | 48     |
+| 12   | MALAK       | 48     |
+| 14   | JULIAN      | 39     |
+| 15   | emil        | 36     |
+| 16   | jsk         | 34     |
+| 17   | LUKE D      | 32     |
+| 18   | alireza     | 24     |
+| 19   | PYL         | 15     |
+| 20   | RRT         | 12     |
+| 21   | HYS         | 11     |
+| 21   | BGB         | 11     |
+
+
 ![](https://github.com/GameAISchool2024members/TeamBrazil/blob/main/KeepCalm/Assets.xcassets/hue.imageset/hue.png?raw=true![image](https://github.com/GameAISchool2024members/TeamBrazil/assets/3648336/3ed8106c-0370-400f-a3cf-d0f3830568b7)
 )
