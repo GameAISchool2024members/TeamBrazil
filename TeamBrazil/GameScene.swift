@@ -15,7 +15,16 @@ class GameScene: SKScene {
     
     private var lastUpdateTime : TimeInterval = 0
     private var label : SKLabelNode?
+    private var labele : SKLabelNode?
     private var spinnyNode : SKShapeNode?
+    
+    var appModel = DataInterface()
+    
+    func updateResponse(text: String) {
+        label?.text = text + "AA"
+        self.label?.text = text
+        self.labele?.text = text
+    }
     
     override func sceneDidLoad() {
         
@@ -23,6 +32,7 @@ class GameScene: SKScene {
         
         // Get label node from scene and store it for use later
         self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
+        self.labele = self.childNode(withName: "//label") as? SKLabelNode
         if let label = self.label {
             label.alpha = 0.0
             label.run(SKAction.fadeIn(withDuration: 2.0))
@@ -88,6 +98,23 @@ class GameScene: SKScene {
         default:
             print("keyDown: \(event.characters!) keyCode: \(event.keyCode)")
         }
+        
+        appModel.completionBlock = { string in
+            if self.appModel.isSending == false {
+                self.updateResponse(text: "...")
+            } else {
+                DispatchQueue.main.async {
+                    self.updateResponse(text: self.appModel.response)
+                }
+            }
+        }
+        
+        self.sendPrompt()
+    }
+    
+    func sendPrompt() {
+        appModel.prompt = "I need a animal. One word only, different of \(appModel.response)"
+        appModel.sendPrompt()
     }
     
     

@@ -14,6 +14,11 @@
 		4578E02B2C24CAFF00CABA6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578E02A2C24CAFF00CABA6E /* ViewController.swift */; };
 		4578E02D2C24CB0100CABA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4578E02C2C24CB0100CABA6E /* Assets.xcassets */; };
 		4578E0302C24CB0100CABA6E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4578E02F2C24CB0100CABA6E /* Base */; };
+		4578E0382C24CB0D00CABA6E /* DataInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578E0372C24CB0D00CABA6E /* DataInterface.swift */; };
+		4578E03A2C24D5B700CABA6E /* LabyrinthScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578E0392C24D5B700CABA6E /* LabyrinthScene.swift */; };
+		4578E03E2C24D6CD00CABA6E /* LabyrinthScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4578E03D2C24D6CD00CABA6E /* LabyrinthScene.sks */; };
+		4578E0402C24DCED00CABA6E /* CaveScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578E03F2C24DCED00CABA6E /* CaveScene.swift */; };
+		4578E0422C24DEFC00CABA6E /* MazeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578E0412C24DEFC00CABA6E /* MazeScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		4578E02C2C24CB0100CABA6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4578E02F2C24CB0100CABA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4578E0312C24CB0100CABA6E /* TeamBrazil.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeamBrazil.entitlements; sourceTree = "<group>"; };
+		4578E0372C24CB0D00CABA6E /* DataInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInterface.swift; sourceTree = "<group>"; };
+		4578E0392C24D5B700CABA6E /* LabyrinthScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabyrinthScene.swift; sourceTree = "<group>"; };
+		4578E03D2C24D6CD00CABA6E /* LabyrinthScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LabyrinthScene.sks; sourceTree = "<group>"; };
+		4578E03F2C24DCED00CABA6E /* CaveScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaveScene.swift; sourceTree = "<group>"; };
+		4578E0412C24DEFC00CABA6E /* MazeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				4578E0222C24CAFF00CABA6E /* AppDelegate.swift */,
+				4578E0372C24CB0D00CABA6E /* DataInterface.swift */,
+				4578E03D2C24D6CD00CABA6E /* LabyrinthScene.sks */,
+				4578E0392C24D5B700CABA6E /* LabyrinthScene.swift */,
 				4578E0242C24CAFF00CABA6E /* GameScene.sks */,
 				4578E0262C24CAFF00CABA6E /* Actions.sks */,
 				4578E0282C24CAFF00CABA6E /* GameScene.swift */,
 				4578E02A2C24CAFF00CABA6E /* ViewController.swift */,
+				4578E03F2C24DCED00CABA6E /* CaveScene.swift */,
 				4578E02C2C24CB0100CABA6E /* Assets.xcassets */,
 				4578E02E2C24CB0100CABA6E /* Main.storyboard */,
 				4578E0312C24CB0100CABA6E /* TeamBrazil.entitlements */,
+				4578E0412C24DEFC00CABA6E /* MazeScene.swift */,
 			);
 			path = TeamBrazil;
 			sourceTree = "<group>";
@@ -130,6 +145,7 @@
 			files = (
 				4578E0252C24CAFF00CABA6E /* GameScene.sks in Resources */,
 				4578E02D2C24CB0100CABA6E /* Assets.xcassets in Resources */,
+				4578E03E2C24D6CD00CABA6E /* LabyrinthScene.sks in Resources */,
 				4578E0272C24CAFF00CABA6E /* Actions.sks in Resources */,
 				4578E0302C24CB0100CABA6E /* Base in Resources */,
 			);
@@ -143,7 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4578E02B2C24CAFF00CABA6E /* ViewController.swift in Sources */,
+				4578E0402C24DCED00CABA6E /* CaveScene.swift in Sources */,
+				4578E0422C24DEFC00CABA6E /* MazeScene.swift in Sources */,
+				4578E0382C24CB0D00CABA6E /* DataInterface.swift in Sources */,
 				4578E0292C24CAFF00CABA6E /* GameScene.swift in Sources */,
+				4578E03A2C24D5B700CABA6E /* LabyrinthScene.swift in Sources */,
 				4578E0232C24CAFF00CABA6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
