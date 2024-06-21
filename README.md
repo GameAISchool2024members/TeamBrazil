@@ -2,6 +2,12 @@
 
 > #Team🇧🇷
 
+
+
+https://github.com/GameAISchool2024members/TeamBrazil/assets/3648336/90bbc040-f4d4-4cfa-a4cf-c2c8eecef533
+
+
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Human-Computer Interaction Experience](#human-computer-interaction-experience)
